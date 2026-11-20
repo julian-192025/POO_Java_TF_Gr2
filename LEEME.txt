@@ -80,4 +80,5 @@ DEPURAR EN NETBEANS
 ALCANCE DE ESTA ENTREGA LOCAL
 Incluye implementación, formulario editable, ejecutable y pruebas.
 No acredita aportes de otros integrantes ni historial grupal que no se haya
-realizado. No se ha publicado en GitHub ni entregado en el Campus Digital.
+realizado. Repositorio: https://github.com/julian-192025/POO_Java_TF_Gr2
+No se ha entregado en el Campus Digital.

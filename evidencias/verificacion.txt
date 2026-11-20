@@ -43,4 +43,5 @@ Ejecutable:
 
 Fuera de esta entrega local:
   No se creó evidencia ficticia de participación grupal.
-  No se publicó en GitHub ni se envió al Campus Digital.
+  La publicación posterior está en https://github.com/julian-192025/POO_Java_TF_Gr2
+  No se ha enviado al Campus Digital.
