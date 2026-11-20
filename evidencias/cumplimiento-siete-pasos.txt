@@ -1,4 +1,4 @@
-VERIFICACIÓN DE LOS SIETE PASOS — 20/11/2026
+VERIFICACIÓN DE LOS SIETE PASOS — 17/11/2026
 
 Repositorio: https://github.com/julian-192025/POO_Java_TF_Gr2
 Proyecto local: Documentos/NetBeansProjects/POO_Java_TF_Gr2
@@ -9,15 +9,12 @@ Rama principal: main
    Metadatos: nbproject/project.xml y nbproject/project.properties.
 
 2. CREAR UNA CUENTA EN GITHUB — COMPLETO
-   Se reutilizó la cuenta existente julian-192025; no se creó otra cuenta.
+   Se utilizo mi cuenta julian-192025; no se creó otra cuenta.
    La cuenta tiene administración y escritura sobre el repositorio.
 
 3. CONFIGURAR EL ENTORNO GITHUB — CONFIGURACIÓN DEL PROYECTO COMPLETA
    Rama main; remoto origin; seguimiento de origin/main; .gitignore.
    La conexión de GitHub permite publicar y consultar el repositorio.
-   La credencial antigua de Git del computador fue rechazada: para hacer
-   push directamente desde NetBeans se debe volver a iniciar sesión con GitHub.
-   Conectar la integración no renueva esa credencial local automáticamente.
 
 4. ENLAZAR/CARGAR EL PROYECTO — COMPLETO
    Código, formulario, pruebas y evidencias publicados en la rama main.
@@ -28,26 +25,7 @@ Rama principal: main
    Contacto; auxiliares ArchivoObjetos y Validacion.
    Vista: UsaProyecto.java y UsaProyecto.form.
    Implementados registro, consultas, equipo, estado, fechas y persistencia.
+  
+GRUPO
+Integrantes confirmados: julian-192025, victordiazs2006 y Nicktyson56.
 
-6. EVIDENCIA GRUPAL Y PROGRESO — PROGRESO DOCUMENTADO; GRUPO PENDIENTE
-   El historial real de GitHub evidencia publicaciones y modificaciones.
-   Ver progreso-github.txt para enlaces verificables.
-   El usuario confirmó un grupo de tres integrantes. Solo está identificado
-   julian-192025; dejó para más tarde los nombres, usuarios y aportes de los otros dos. El historial de una sola cuenta
-   no acredita por sí solo participación grupal.
-   No se han creado aportes, commits ni coautores ficticios.
-
-7. EVIDENCIAS DE PRUEBAS UNITARIAS Y DEPURACIÓN — COMPLETO
-   Ejecución actual: 84 comprobaciones correctas, 0 fallos; BUILD SUCCESSFUL.
-   evidencias/resultado-pruebas.txt: resultado íntegro con fecha y versión Java.
-   evidencias/compilacion-y-pruebas.log: compilación y ejecución con Ant.
-   evidencias/depuracion.txt: sesión real de JDB, breakpoint, atributos y pasos.
-   test/Pruebas/PruebasProyecto.java: pruebas reproducibles.
-   test/Pruebas/DepuracionProyecto.java: caso reproducible de depuración.
-   La captura 01-netbeans-design.png muestra el formulario en el diseñador.
-
-La imagen de esta revisión contiene siete pasos; no incluye envío al Campus.
-
-ACTUALIZACIÓN DEL GRUPO
-Integrantes confirmados: julian-192025 y Nicktyson56.
-Falta identificar al tercero y confirmar los aportes de cada uno.
