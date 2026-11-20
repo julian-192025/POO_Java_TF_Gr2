@@ -47,3 +47,7 @@ Rama principal: main
    La captura 01-netbeans-design.png muestra el formulario en el diseñador.
 
 La imagen de esta revisión contiene siete pasos; no incluye envío al Campus.
+
+ACTUALIZACIÓN DEL GRUPO
+Integrantes confirmados: julian-192025 y Nicktyson56.
+Falta identificar al tercero y confirmar los aportes de cada uno.

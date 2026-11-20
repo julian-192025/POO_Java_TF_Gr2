@@ -25,3 +25,9 @@ Para completar la evidencia grupal se necesitan:
 - Actividades realmente realizadas por cada integrante.
 - Enlaces a commits, revisiones u otras evidencias de esos aportes.
 Las contribuciones futuras deben publicarse con la cuenta de quien las realiza.
+
+ACTUALIZACIÓN DEL GRUPO
+El usuario confirmó a Nicktyson56 como segundo integrante.
+Perfil: https://github.com/Nicktyson56
+No se afirma que haya hecho commits o revisiones ni que tenga acceso de escritura.
+Faltan el tercer integrante y los aportes individuales.
