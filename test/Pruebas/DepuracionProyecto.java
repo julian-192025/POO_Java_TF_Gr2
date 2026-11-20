@@ -4,7 +4,7 @@ import Modelo.*;
 import java.time.LocalDate;
 
 
-public class DepuracionProyecto {
+public class PruebasUnitarias {
     public static void main(String[] args) {
         Cliente cliente = new PersonaNatural("DEMO-C", "Cliente de demostración", "Cali", "5550100", "demo@example.com");
         Empleado gerente = new Empleado("DEMO-G", "Gerente de demostración", "Ingeniería", (byte) 3);
