@@ -1,0 +1,100 @@
+    [javac] warning: [options] bootstrap class path is not set in conjunction with -source 8
+    [javac]   not setting the bootstrap class path may lead to class files that cannot run on JDK 8
+    [javac]     --release 8 is recommended instead of -source 8 -target 1.8 because it sets the bootstrap class path automatically
+    [javac] warning: [options] source value 8 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 8 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+     [echo] Cycle detected: POO_Java_TF_Gr2 was already built
+     [echo] PRUEBAS POO_Java_TF_Gr2
+     [echo] Fecha de ejecuci�n: 2026-11-20T15:11:05.014062300-05:00[America/Bogota]
+     [echo] Java: 24.0.1
+     [echo] OK 01 - Estado inicial INICIADO y equipo vac�o
+     [echo] OK 02 - Un mes desde enero 31 termina en febrero 28
+     [echo] OK 03 - Tres semanas equivalen a 21 d�as
+     [echo] OK 04 - Cambio de a�o bisiesto
+     [echo] OK 05 - Duraci�n permitida: 1 meses
+     [echo] OK 06 - Duraci�n permitida: 11 meses
+     [echo] OK 07 - Duraci�n permitida: 13 meses
+     [echo] OK 08 - Duraci�n permitida: 23 meses
+     [echo] OK 09 - Duraci�n permitida: 25 meses
+     [echo] OK 10 - Duraci�n permitida: 35 meses
+     [echo] OK 11 - Duraci�n inv�lida: 0 meses
+     [echo] OK 12 - Duraci�n inv�lida: 12 meses
+     [echo] OK 13 - Duraci�n inv�lida: 24 meses
+     [echo] OK 14 - Duraci�n inv�lida: 36 meses
+     [echo] OK 15 - Duraci�n inv�lida: -1 meses
+     [echo] OK 16 - No admite cuatro semanas
+     [echo] OK 17 - No admite cuatro a�os
+     [echo] OK 18 - No admite una unidad distinta
+     [echo] OK 19 - Setter conserva duraci�n v�lida
+     [echo] OK 20 - Fallo de duraci�n no altera el objeto
+     [echo] OK 21 - T�tulo m�nimo de 20 caracteres
+     [echo] OK 22 - T�tulo m�ximo de 100 caracteres
+     [echo] OK 23 - T�tulo corto
+     [echo] OK 24 - T�tulo de 101 caracteres
+     [echo] OK 25 - C�digo sin guion
+     [echo] OK 26 - Consecutivo cero
+     [echo] OK 27 - Cliente obligatorio
+     [echo] OK 28 - Gerente obligatorio
+     [echo] OK 29 - Experiencia negativa
+     [echo] OK 30 - Contacto obligatorio de empresa
+     [echo] OK 31 - Polimorfismo muestra contacto de empresa
+     [echo] OK 32 - Polimorfismo muestra datos de persona
+     [echo] OK 33 - Integrante duplicado por identificaci�n
+     [echo] OK 34 - Integrante nulo
+     [echo] OK 35 - El getter no permite vaciar el equipo original
+     [echo] OK 36 - Retiro devuelve el empleado
+     [echo] OK 37 - Retiro inexistente devuelve null
+     [echo] OK 38 - Estado permitido: INICIADO
+     [echo] OK 39 - Estado permitido: EN CURSO
+     [echo] OK 40 - Estado permitido: CANCELADO
+     [echo] OK 41 - Estado permitido: FINALIZADO
+     [echo] OK 42 - Estado permitido: SUSPENDIDO
+     [echo] OK 43 - Estado permitido: APLAZADO
+     [echo] OK 44 - Estado desconocido
+     [echo] OK 45 - Primer consecutivo del a�o
+     [echo] OK 46 - Consecutivo usa m�ximo, no tama�o
+     [echo] OK 47 - Reinicio anual del consecutivo
+     [echo] OK 48 - L�mite de 999 proyectos por a�o
+     [echo] OK 49 - Consulta de todos incluye los tres proyectos
+     [echo] OK 50 - Filtro EN CURSO excluye los dem�s
+     [echo] OK 51 - Primer proyecto
+     [echo] OK 52 - �ltimo proyecto
+     [echo] OK 53 - B�squeda por c�digo exacto
+     [echo] OK 54 - C�digo no encontrado
+     [echo] OK 55 - Consulta vac�a
+     [echo] OK 56 - Gerente del proyecto
+     [echo] OK 57 - Equipo vac�o
+     [echo] OK 58 - Filtro de gerente con tres coincidencias
+     [echo] OK 59 - Filtro de cliente con dos coincidencias
+     [echo] OK 60 - Filtro Empresa
+     [echo] OK 61 - Filtro PersonaNatural
+     [echo] OK 62 - Tipo de cliente incorrecto
+     [echo] OK 63 - Registro de integrante desde la vista
+     [echo] OK 64 - Registro de equipo conserva integrantes previos
+     [echo] OK 65 - Cancelaci�n de equipo no agrega parcialmente
+     [echo] OK 66 - Retiro desde la vista
+     [echo] OK 67 - Cambio de estado desde la vista
+     [echo] OK 68 - Proyecto inexistente no solicita empleados
+     [echo] OK 69 - Registro completo desde la vista
+     [echo] OK 70 - Cancelaci�n del registro no agrega proyecto
+     [echo] OK 71 - Fecha imposible en formulario
+     [echo] OK 72 - Fecha inv�lida no modifica la lista
+     [echo] OK 73 - Archivo inexistente reporta error
+     [echo] OK 74 - Persistencia recupera todos los proyectos
+     [echo] OK 75 - Persistencia conserva equipo y estado
+     [echo] OK 76 - Persistencia conserva subclase Empresa y contacto
+     [echo] OK 77 - Persistencia conserva cliente compartido
+     [echo] OK 78 - Consecutivo contin�a despu�s de leer
+     [echo] OK 79 - Lectura de clientes elimina repetidos por identificaci�n
+     [echo] OK 80 - Guardar lista vac�a no borra archivo anterior
+     [echo] OK 81 - Archivo anterior permanece intacto
+     [echo] OK 82 - Archivo truncado no se acepta como lectura completa
+     [echo] OK 83 - Archivo con tipo de objeto incorrecto
+     [echo] OK 84 - Lectura rechaza c�digos duplicados
+     [echo] RESULTADO: 84 comprobaciones correctas; 0 fallos.
+     [echo] Los archivos de prueba se generaron en una carpeta temporal aislada.
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

@@ -1,0 +1,46 @@
+VERIFICACIÓN DE LA ENTREGA LOCAL - 20 DE NOVIEMBRE DE 2026
+
+Requisito / implementación / evidencia
+
+Nombre POO_Java_TF_Gr2:
+  Reconocido y abierto por Apache NetBeans IDE 26.
+  Ver 01-netbeans-design.png.
+
+Diagrama de clases:
+  Proyecto, Empleado, Cliente abstracto, Empresa final, PersonaNatural final,
+  Contacto y UsaProyecto JFrame están implementados con los atributos del PDF.
+  Se mantienen los paquetes Modelo y Vista y las firmas públicas solicitadas.
+
+GUI:
+  UsaProyecto.form fue abierto en Design, redimensionado y guardado en NetBeans.
+  Se ejecutó desde el IDE con F6 y se inspeccionó visualmente la ventana final.
+  Incluye 19 acciones de gestión/consulta/persistencia y Salir.
+  Las operaciones usan controles Swing y diálogos con cancelación.
+
+Reglas:
+  Título entre 20 y 100 caracteres; código aaaa-001; duración según los intervalos
+  del PDF; seis estados; fecha final calculada con LocalDate; equipo opcional.
+
+Persistencia:
+  Archivos de objetos datosProyectos y datosClientes. Los proyectos conservan
+  los objetos relacionados; al leer clientes se eliminan duplicados por ID.
+  Se comprueban archivos inexistentes, truncados y con tipos incorrectos.
+
+Pruebas unitarias y de integración:
+  84 comprobaciones correctas; 0 fallos.
+  Resultado íntegro: resultado-pruebas.txt.
+  Compilación y ejecución: compilacion-y-pruebas.log.
+  Código reproducible: test/Pruebas/PruebasProyecto.java.
+  El registro interactivo se prueba con respuestas simuladas mediante una
+  subclase; no se afirma haber recorrido manualmente todos los diálogos.
+
+Depuración:
+  Breakpoint real, inspección de atributos y avance de línea con JDB.
+  Ver depuracion.txt y test/Pruebas/DepuracionProyecto.java.
+
+Ejecutable:
+  dist/POO_Java_TF_Gr2.jar; clase principal Vista.UsaProyecto.
+
+Fuera de esta entrega local:
+  No se creó evidencia ficticia de participación grupal.
+  No se publicó en GitHub ni se envió al Campus Digital.

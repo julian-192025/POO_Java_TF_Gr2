@@ -1,0 +1,89 @@
+PRUEBAS POO_Java_TF_Gr2
+Fecha de ejecución: 2026-11-20T15:24:52.739110900-05:00[America/Bogota]
+Java: 24.0.1
+OK 01 - Estado inicial INICIADO y equipo vacío
+OK 02 - Un mes desde enero 31 termina en febrero 28
+OK 03 - Tres semanas equivalen a 21 días
+OK 04 - Cambio de año bisiesto
+OK 05 - Duración permitida: 1 meses
+OK 06 - Duración permitida: 11 meses
+OK 07 - Duración permitida: 13 meses
+OK 08 - Duración permitida: 23 meses
+OK 09 - Duración permitida: 25 meses
+OK 10 - Duración permitida: 35 meses
+OK 11 - Duración inválida: 0 meses
+OK 12 - Duración inválida: 12 meses
+OK 13 - Duración inválida: 24 meses
+OK 14 - Duración inválida: 36 meses
+OK 15 - Duración inválida: -1 meses
+OK 16 - No admite cuatro semanas
+OK 17 - No admite cuatro años
+OK 18 - No admite una unidad distinta
+OK 19 - Setter conserva duración válida
+OK 20 - Fallo de duración no altera el objeto
+OK 21 - Título mínimo de 20 caracteres
+OK 22 - Título máximo de 100 caracteres
+OK 23 - Título corto
+OK 24 - Título de 101 caracteres
+OK 25 - Código sin guion
+OK 26 - Consecutivo cero
+OK 27 - Cliente obligatorio
+OK 28 - Gerente obligatorio
+OK 29 - Experiencia negativa
+OK 30 - Contacto obligatorio de empresa
+OK 31 - Polimorfismo muestra contacto de empresa
+OK 32 - Polimorfismo muestra datos de persona
+OK 33 - Integrante duplicado por identificación
+OK 34 - Integrante nulo
+OK 35 - El getter no permite vaciar el equipo original
+OK 36 - Retiro devuelve el empleado
+OK 37 - Retiro inexistente devuelve null
+OK 38 - Estado permitido: INICIADO
+OK 39 - Estado permitido: EN CURSO
+OK 40 - Estado permitido: CANCELADO
+OK 41 - Estado permitido: FINALIZADO
+OK 42 - Estado permitido: SUSPENDIDO
+OK 43 - Estado permitido: APLAZADO
+OK 44 - Estado desconocido
+OK 45 - Primer consecutivo del año
+OK 46 - Consecutivo usa máximo, no tamaño
+OK 47 - Reinicio anual del consecutivo
+OK 48 - Límite de 999 proyectos por año
+OK 49 - Consulta de todos incluye los tres proyectos
+OK 50 - Filtro EN CURSO excluye los demás
+OK 51 - Primer proyecto
+OK 52 - Último proyecto
+OK 53 - Búsqueda por código exacto
+OK 54 - Código no encontrado
+OK 55 - Consulta vacía
+OK 56 - Gerente del proyecto
+OK 57 - Equipo vacío
+OK 58 - Filtro de gerente con tres coincidencias
+OK 59 - Filtro de cliente con dos coincidencias
+OK 60 - Filtro Empresa
+OK 61 - Filtro PersonaNatural
+OK 62 - Tipo de cliente incorrecto
+OK 63 - Registro de integrante desde la vista
+OK 64 - Registro de equipo conserva integrantes previos
+OK 65 - Cancelación de equipo no agrega parcialmente
+OK 66 - Retiro desde la vista
+OK 67 - Cambio de estado desde la vista
+OK 68 - Proyecto inexistente no solicita empleados
+OK 69 - Registro completo desde la vista
+OK 70 - Cancelación del registro no agrega proyecto
+OK 71 - Fecha imposible en formulario
+OK 72 - Fecha inválida no modifica la lista
+OK 73 - Archivo inexistente reporta error
+OK 74 - Persistencia recupera todos los proyectos
+OK 75 - Persistencia conserva equipo y estado
+OK 76 - Persistencia conserva subclase Empresa y contacto
+OK 77 - Persistencia conserva cliente compartido
+OK 78 - Consecutivo continúa después de leer
+OK 79 - Lectura de clientes elimina repetidos por identificación
+OK 80 - Guardar lista vacía no borra archivo anterior
+OK 81 - Archivo anterior permanece intacto
+OK 82 - Archivo truncado no se acepta como lectura completa
+OK 83 - Archivo con tipo de objeto incorrecto
+OK 84 - Lectura rechaza códigos duplicados
+RESULTADO: 84 comprobaciones correctas; 0 fallos.
+Los archivos de prueba se generaron en una carpeta temporal aislada.

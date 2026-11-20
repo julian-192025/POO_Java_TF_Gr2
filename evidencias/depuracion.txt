@@ -1,0 +1,36 @@
+DEPURACIÓN REAL CON JDB - 20/11/2026
+
+Se ejecutó Pruebas.DepuracionProyecto con el depurador jdb del JDK 24.0.1.
+A continuación se transcriben los comandos y resultados relevantes observados.
+No corresponde a una captura del depurador de NetBeans; la guía LEEME explica
+cómo repetir el mismo caso dentro del IDE.
+
+> stop in Modelo.Proyecto.determinarFechaFinalizacion
+Deferring breakpoint Modelo.Proyecto.determinarFechaFinalizacion.
+It will be set after the class is loaded.
+> run
+VM Started: Set deferred breakpoint Modelo.Proyecto.determinarFechaFinalizacion
+Breakpoint hit: "thread=main", Modelo.Proyecto.determinarFechaFinalizacion(), line=106 bci=0
+
+main[1] where
+  [1] Modelo.Proyecto.determinarFechaFinalizacion (Proyecto.java:106)
+  [2] Pruebas.DepuracionProyecto.main (DepuracionProyecto.java:13)
+
+main[1] print this.fechaInicio
+ this.fechaInicio = "2026-01-31"
+main[1] print this.unidadDuracion
+ this.unidadDuracion = "meses"
+main[1] print this.duracionEstimada
+ this.duracionEstimada = 1
+
+main[1] next
+Step completed: "thread=main", Modelo.Proyecto.determinarFechaFinalizacion(), line=108 bci=101
+main[1] cont
+Inicio: 2026-01-31
+Duracion: 1 meses
+Fin esperado y obtenido: 2026-02-28 / 2026-02-28
+
+Resultado: el método seleccionó plusMonths y ajustó correctamente el final de mes.
+Al enviar inicialmente varias expresiones juntas, jdb indicó que el hilo no estaba
+suspendido para dos de ellas; se repitieron individualmente y devolvieron los
+valores anteriores. Esta incidencia fue del uso del depurador, no de la aplicación.
