@@ -5,9 +5,16 @@
     [javac] warning: [options] target value 8 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
     [javac] 4 warnings
-     [echo] Cycle detected: POO_Java_TF_Gr2 was already built
+     [echo] Cycle detected: POO_Java_TF_Gr2julian flor was already built
+    [javac] warning: [options] bootstrap class path is not set in conjunction with -source 8
+    [javac]   not setting the bootstrap class path may lead to class files that cannot run on JDK 8
+    [javac]     --release 8 is recommended instead of -source 8 -target 1.8 because it sets the bootstrap class path automatically
+    [javac] warning: [options] source value 8 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 8 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
      [echo] PRUEBAS POO_Java_TF_Gr2
-     [echo] Fecha de ejecuci�n: 2026-11-20T15:11:05.014062300-05:00[America/Bogota]
+     [echo] Fecha de ejecuci�n: 2026-11-20T17:01:02.087915500-05:00[America/Bogota]
      [echo] Java: 24.0.1
      [echo] OK 01 - Estado inicial INICIADO y equipo vac�o
      [echo] OK 02 - Un mes desde enero 31 termina en febrero 28
@@ -97,4 +104,4 @@
      [echo] Los archivos de prueba se generaron en una carpeta temporal aislada.
 
 BUILD SUCCESSFUL
-Total time: 3 seconds
+Total time: 4 seconds

@@ -1,0 +1,27 @@
+EVIDENCIA DE PROGRESO EN GITHUB
+Repositorio: https://github.com/julian-192025/POO_Java_TF_Gr2
+Historial: https://github.com/julian-192025/POO_Java_TF_Gr2/commits/main/
+
+Hitos verificados del 20 de noviembre de 2026:
+- 012d34f: Documentar ejecución y alcance del proyecto.
+  https://github.com/julian-192025/POO_Java_TF_Gr2/commit/012d34fffad027b1b79543beb7cf570178bc03f9
+- 39c2140: Incorporar gestor de proyectos Swing, pruebas y evidencias.
+  https://github.com/julian-192025/POO_Java_TF_Gr2/commit/39c2140f7fc9a5a8f397029cbda6cc40708b8158
+- 1511981: Añadir enlace del repositorio a la documentación.
+  https://github.com/julian-192025/POO_Java_TF_Gr2/commit/1511981c4c297d59a16d86b83e4f9d127f2b096a
+- db105c8: Update README.md. Cambio existente del usuario, conservado.
+  https://github.com/julian-192025/POO_Java_TF_Gr2/commit/db105c8bf8f2fb9c5c456ce2cecf75feb17a4239
+
+Los cuatro commits están atribuidos por GitHub a julian-192025.
+Esto demuestra progreso publicado en esa cuenta, no prueba que varias
+personas hayan realizado aportes. El desarrollo local anterior a la primera
+publicación no se presenta como si hubiera tenido commits históricos.
+
+El usuario confirmó que trabajó con otros dos integrantes (tres en total).
+A petición suya, sus nombres y aportes se documentarán más adelante.
+
+Para completar la evidencia grupal se necesitan:
+- Nombres y usuarios de GitHub de los integrantes.
+- Actividades realmente realizadas por cada integrante.
+- Enlaces a commits, revisiones u otras evidencias de esos aportes.
+Las contribuciones futuras deben publicarse con la cuenta de quien las realiza.

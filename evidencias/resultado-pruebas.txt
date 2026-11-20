@@ -1,5 +1,5 @@
 PRUEBAS POO_Java_TF_Gr2
-Fecha de ejecución: 2026-11-20T15:24:52.739110900-05:00[America/Bogota]
+Fecha de ejecución: 2026-11-20T17:01:02.087915500-05:00[America/Bogota]
 Java: 24.0.1
 OK 01 - Estado inicial INICIADO y equipo vacío
 OK 02 - Un mes desde enero 31 termina en febrero 28
